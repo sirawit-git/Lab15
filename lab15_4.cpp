@@ -29,8 +29,7 @@ void shuffle(int &a, int &b, int &c, int &d) {
         int j = rand() % (4 - i) + i;
         swap(arr[i], arr[j]);
     }
-
-   
+  
     a = arr[0];
     b = arr[1];
     c = arr[2];
